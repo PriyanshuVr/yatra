@@ -7,7 +7,7 @@ export default function Puja_Page() {
   return(
     <div>
       <Top hex_code={"#fff0e3"}/>
-      <Topic title={"Puja"}/>
+      <Topic title={"Puja New"}/>
       <Grid gridData={data}/>
     </div>
   )
