@@ -4,7 +4,7 @@ import TimeLine from "@/core/component/timeline/timeline";
 import Top from "@/core/component/top/top";
 import menu from "@/core/data/menu.data.json"
 import timeline from "@/core/data/timeline.data.json";
-export default function MyFirstPage() {
+export default function Home_Page() {
   return (
     <div>
       <Top version={"v1"}/>
