@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.container-data{
+  @apply max-w-[1440px] mx-5 lg:mx-20 2xl:mx-auto my-6;
+}

@@ -1,17 +1,19 @@
-import Banner1 from "@/core/component/banner1"
-import Banner2 from "@/core/component/banner2"
-import Menus from "@/core/component/menus"
-import TimeLine from "@/core/component/timeline"
-import Top from "@/core/component/top"
-
+import Banner from "@/core/component/banner/banner";
+import Menus from "@/core/component/menu/menus";
+import TimeLine from "@/core/component/timeline/timeline";
+import Top from "@/core/component/top/top";
+import menu from "@/core/data/menu.data.json"
+import timeline from "@/core/data/timeline.data.json";
 export default function MyFirstPage() {
   return (
     <div>
-      <Top hex_code={"#ff6201"}/>
-      <Banner1/>
-      <Banner2/>
-      <Menus/>
-      <TimeLine/>
+      <Top version={"v1"}/>
+      <Banner image={"t1"}/>
+      <Banner image={"t2"}/>
+      <div className="container-data">
+        <Menus menusData={menu}/>
+        <TimeLine timelineData={timeline} />
+      </div>
     </div>
-  )
+  );
 }

@@ -1,0 +1,10 @@
+{
+    "t1": {
+        "image_url": "https://yatra.brajesh.info/wp-content/uploads/2025/07/यात्रा.jpg",
+        "ratio": "aspect-[21/9]"
+    },
+    "t2": {
+        "image_url": "https://yatra.brajesh.info/wp-content/uploads/2025/05/map.jpg",
+        "ratio": "aspect-[16/4]"
+    }
+}

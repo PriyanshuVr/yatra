@@ -1,5 +1,5 @@
 interface gridDataProps{
-  Image?:string
+  Image:string
   Text:string;
 }
 interface gridProps{

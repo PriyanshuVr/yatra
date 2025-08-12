@@ -1,0 +1,3 @@
+interface topProps{
+  version: string
+}
