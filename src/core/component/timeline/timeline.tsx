@@ -11,7 +11,7 @@ export default function TimeLine({timelineData}: timelineProps) {
             {index % 2 == 0 ? (
               <>
                 <div className="col-span-1">
-                  <a href="#" className="inline-block w-full mt-5">
+                  <a href={item.Url} className="inline-block w-full mt-5">
                     <Image
                       className="w-full"
                       src={item.Image}
