@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Topic from "../topic/topic";
+import Link from "next/link";
 export default function TimeLine({timelineData}: timelineProps) {
   return (
     <>
@@ -11,7 +12,7 @@ export default function TimeLine({timelineData}: timelineProps) {
             {index % 2 == 0 ? (
               <>
                 <div className="col-span-1">
-                  <a href={item.Url} className="inline-block w-full mt-5">
+                  <Link href={item.Url} className="inline-block w-full mt-5">
                     <Image
                       className="w-full"
                       src={item.Image}
@@ -19,7 +20,7 @@ export default function TimeLine({timelineData}: timelineProps) {
                       width={490}
                       height={490}
                     ></Image>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-span-1 border-red-800 border-b-3 pb-8 lg:border-b-0">
                   <div className="text-[32px] font-semibold text-red-800 mb-6">
@@ -41,7 +42,7 @@ export default function TimeLine({timelineData}: timelineProps) {
                   </p>
                 </div>
                 <div className="col-span-1">
-                  <a href="#" className="inline-block w-full mt-5">
+                  <Link href={"#"} className="inline-block w-full mt-5">
                     <Image
                       className="w-full border-red-800 border-b-3 pb-8 lg:border-b-0 lg:pb-0"
                       src={item.Image}
@@ -49,7 +50,7 @@ export default function TimeLine({timelineData}: timelineProps) {
                       width={490}
                       height={490}
                     ></Image>
-                  </a>
+                  </Link>
                 </div>
               </>
             )}

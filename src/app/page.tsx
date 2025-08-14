@@ -12,7 +12,7 @@ export default function Home_Page() {
       <Banner image={"t2"}/>
       <div className="container-data">
         <Menus menusData={menu}/>
-        <TimeLine timelineData={timeline} />
+        <TimeLine timelineData={timeline}/>
       </div>
     </div>
   );
