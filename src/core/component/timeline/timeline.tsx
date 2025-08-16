@@ -22,7 +22,7 @@ export default function TimeLine({timelineData}: timelineProps) {
                     ></Image>
                   </Link>
                 </div>
-                <div className="col-span-1 border-red-800 border-b-3 pb-8 lg:border-b-0">
+                <div className="col-span-1 border-red-800 border-b-2 pb-8 lg:border-b-0">
                   <div className="text-[32px] font-semibold text-red-800 mb-6">
                     {item.Heading}
                   </div>
@@ -44,7 +44,7 @@ export default function TimeLine({timelineData}: timelineProps) {
                 <div className="col-span-1">
                   <Link href={"#"} className="inline-block w-full mt-5">
                     <Image
-                      className="w-full border-red-800 border-b-3 pb-8 lg:border-b-0 lg:pb-0"
+                      className="w-full border-red-800 border-b-2 pb-8 lg:border-b-0 lg:pb-0"
                       src={item.Image}
                       alt={""}
                       width={490}
