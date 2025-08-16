@@ -10,7 +10,7 @@ export default function Menus({menusData}: menusProps) {
               <div className="relative">
                 <Link href={item.LinkHref}>
                 <Image className="w-full" src={item.Image} alt={""} width={300} height={300}></Image>
-                <p className="absolute w-full text-center bottom-0 text-white ">{item.Text}</p>
+                <p className="absolute w-full text-center bottom-0 text-white text-[10px] md:text-[12px] lg:text-[16px]">{item.Text}</p>
                 </Link>
               </div>
               </React.Fragment>
