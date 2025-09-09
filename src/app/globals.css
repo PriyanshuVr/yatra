@@ -26,5 +26,5 @@ body {
 }
 
 .container-data{
-  @apply max-w-[1440px] mx-5 lg:mx-20 2xl:mx-40 my-6;
+  @apply max-w-[1920px] mx-5 lg:mx-20 2xl:mx-40 my-6;
 }
